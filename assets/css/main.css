@@ -1137,7 +1137,7 @@ i.home-product-item__like-icon-fill{
     height: 20px;
 }
 .footer__bottom{
-    padding: 8px 0;
+    padding: 12px 0;
     background-color: #F5F5F5;
     margin-top: 24px;
 }
@@ -1146,5 +1146,5 @@ i.home-product-item__like-icon-fill{
     margin:0;
     font-size: 1.4rem;
     text-align: center;
-    color: var(--text-color);
+    color:#737373
 }
