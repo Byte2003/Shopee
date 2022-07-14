@@ -1140,3 +1140,112 @@ i.home-product-item__like-icon-fill{
     text-align: center;
     color:#737373
 }
+/* For product.html */
+.breadcum{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1.25rem 174px;
+}
+.breadcum-item{
+    list-style: none;
+}
+.page-product-breadcum__icon{
+    font-size: 1.2rem;
+    color: var(--text-color);
+    padding: 0 8px;
+}
+.page-product-breadcum__brand{
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--text-color);
+    text-decoration: none;
+}
+.product-item{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.product-item__img{
+    padding-top:100% ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+.product-item-list{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex:1;
+}
+.product-item-list-picture{
+    margin-top:8px;
+    flex:1;
+    padding-top:16%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+}
+.product-item-list-picture:hover{
+    border:1px solid red;
+}
+.product__social{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 32px;
+}
+.product__social-item{
+    display: flex;
+}
+
+.product__social-item-share{
+    display: flex;
+}
+.product__social-item-share-text{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--text-color);
+  
+}
+.product__social-icon-link{
+    text-decoration: none;
+}
+.product__social-icon{
+    font-size: 1.8rem;
+    color: var(--text-color);
+    padding: 0 8px;
+}
+.product__social-icon:hover{
+    color: var(--primary-color);
+}
+.product__social-item--separate{
+    margin-left: 48px; 
+    margin-top: 10px;
+    height: 1.6rem;
+    border-right: 2px solid var(--text-color);
+    text-align: center;
+}
+.product__social-like{
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product__social-liked{
+    display: block;
+    text-decoration: none;
+}
+.product__social-liked i{
+    font-size: 1.6rem;
+    margin: 0 8px;
+    color: var(--primary-color);
+}
+.product__social-liked-number{
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
