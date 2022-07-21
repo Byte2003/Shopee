@@ -27,6 +27,7 @@
         z-index: 1;
         padding: 0 calc((100% - 644px)/2);
     }
+
     .header__cart-list::after{
         display: none;
     }
@@ -46,6 +47,9 @@
         width: 80px;
         text-align: right;
     }
+    .header__search-history{
+        width: 348px;
+    }
 }
 
 /* Only Mobile */
@@ -53,7 +57,10 @@
     .hide-on-mobile{
         display: none;
     }
-    
+    .header__mobile-search{
+        padding: 0 12px;
+        display: flex;
+    }
     .header-with-search{
         justify-content: space-between;
     }
